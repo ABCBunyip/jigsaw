@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1507229592,
+	"version": 1515079829,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -30,7 +30,9 @@
 		"images/loadingtiled.png",
 		"images/detector-sheet0.png",
 		"images/bbox-sheet0.png",
+		"images/tpuzz-sheet0.png",
 		"images/share-sheet0.png",
+		"images/linkback-sheet0.png",
 		"media/oneclick.m4a",
 		"media/oneclick.ogg",
 		"media/shuffle2.m4a",
