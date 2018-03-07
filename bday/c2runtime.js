@@ -25929,17 +25929,17 @@ cr.behaviors.destroy = function(runtime)
 	};
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Audio,
 	cr.plugins_.Arr,
+	cr.plugins_.Audio,
 	cr.plugins_.Browser,
 	cr.plugins_.Function,
-	cr.plugins_.Particles,
 	cr.plugins_.Mouse,
-	cr.plugins_.Spritefont2,
-	cr.plugins_.Touch,
+	cr.plugins_.Particles,
 	cr.plugins_.Sprite,
-	cr.plugins_.TextBoxAddon,
+	cr.plugins_.Spritefont2,
 	cr.plugins_.TiledBg,
+	cr.plugins_.Touch,
+	cr.plugins_.TextBoxAddon,
 	cr.behaviors.Fade,
 	cr.behaviors.Sin,
 	cr.behaviors.Pin,
@@ -25969,6 +25969,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetX,
 	cr.system_object.prototype.exps.viewportleft,
 	cr.system_object.prototype.exps.windowwidth,
+	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
+	cr.plugins_.Browser.prototype.acts.GoToURL,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.system_object.prototype.cnds.TriggerOnce,
 	cr.system_object.prototype.acts.CreateObject,
@@ -25984,7 +25986,6 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Sin.prototype.acts.SetPeriod,
 	cr.plugins_.Touch.prototype.cnds.IsInTouch,
 	cr.plugins_.Audio.prototype.cnds.IsTagPlaying,
-	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Sprite.prototype.cnds.IsVisible,
 	cr.behaviors.Sin.prototype.acts.SetMovement,
 	cr.behaviors.Sin.prototype.acts.SetMagnitude,
@@ -26024,6 +26025,5 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.CompareBetween,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.plugins_.TextBoxAddon.prototype.cnds.OnFocus,
-	cr.system_object.prototype.exps.len,
-	cr.plugins_.Browser.prototype.acts.GoToURL
+	cr.system_object.prototype.exps.len
 ];};
